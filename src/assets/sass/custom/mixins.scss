@@ -1,0 +1,26 @@
+@mixin hook-button-text() {
+  position: relative;
+  border-bottom: 3px solid $global-primary-background;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+
+  &::before {
+    content: none;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // right: 100%;
+    // border-bottom: $button-text-border-width solid $button-text-border;
+    // transition: right 0.3s ease-out;
+  }
+}
+
+@mixin hook-button-text-hover() {
+//   &::before {
+//     right: 0;
+//   }
+color: $global-primary-background;
+}

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Craft</title>
+	<link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="tm-page">
+		<!-- mobile menu -->
+		<div class="tm-header-mobile uk-hidden@m">
+			<div class="uk-navbar-container">
+				<div class="uk-container uk-container-small">
+					<nav uk-navbar>
+						<div class="uk-navbar-left">
+							<a href="#mobile-menu" class="uk-navbar-toggle"
+								uk-toggle>
+								<span class="uk-icon uk-navbar-toggle-icon"
+									uk-navbar-toggle-icon></span>
+							</a>
+						</div>
+						<div class="uk-navbar-center">
+							<a href="#" class="uk-navbar-item uk-logo">
+								<img src="https://demo.yootheme.com/themes/joomla/2019/craft/images/yootheme/logo-mobile.svg"
+									alt="logo">
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div id="mobile-menu" uk-offcanvas mode="slide" overlay>
+				<div class="uk-offcanvas-bar">
+					<button class="uk-offcanvas-close" type="button"
+						uk-close></button>
+					<div class="uk-child-width-1-1" uk-grid>
+						<div>
+							<div class="uk-panel">
+								<ul class="uk-nav uk-nav-default">
+									<li><a href="#">Home</a></li>
+									<li class="uk-parent"><a
+											href="#">Services</a>
+										<ul class="uk-nav-sub">
+											<li><a href="#">interior
+													construction</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Materials</a></li>
+									<li><a href="#">About us</a></li>
+									<li class="uk-parent"><a
+											href="#">Portfolio</a>
+										<ul class="uk-nav-sub">
+											<li><a href="#">recreation room</a>
+											</li>
+										</ul>
+									</li>
+									<li class="uk-parent"><a
+											href="#">Contact</a>
+										<ul class="uk-nav-sub">
+											<li><a href="#">terms of service</a>
+											</li>
+											<li><a href="#">imprint</a></li>
+										</ul>
+									</li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- desktop menu -->
+		<div class="tm-header uk-visible@m" uk-header>
+			<div uk-sticky animation="uk-animation-slide-top"
+				cls-active="uk-navbar-sticky" media="@m"
+				sel-target=".uk-navbar-container" show-on-up>
+				<div class="uk-navbar-container">
+					<div class="uk-container uk-container-large">
+						<nav class="uk-navbar"
+							uk-navbar='{"align":"left","boundary":"!.uk-navbar-container"}'>
+							<div class="uk-navbar-left">
+								<ul class="uk-navbar-nav">
+									<li class="uk-parent">
+										<a href="#">Services</a>
+										<div class="uk-navbar-dropdown">
+											<div class="uk-child-width-1-1 uk-navbar-dropdown-grid"
+												uk-grid>
+												<ul
+													class="uk-nav uk-navbar-dropdown-nav">
+													<li><a href="#">interior
+															construction</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li><a href="#">Materials</a></li>
+									<li><a href="#">About us</a></li>
+								</ul>
+							</div>
+							<div class="uk-navbar-center">
+								<a href="#" class="uk-navbar-item uk-logo">
+									<img src="https://demo.yootheme.com/themes/joomla/2019/craft/images/yootheme/logo.svg"
+										alt="logo">
+								</a>
+							</div>
+							<div class="uk-navbar-right">
+								<ul class="uk-navbar-nav">
+									<li class="uk-parent">
+										<a href="#">Portfolio</a>
+										<div class="uk-navbar-dropdown">
+											<div class="uk-child-width-1-1 uk-navbar-dropdown-grid"
+												uk-grid>
+												<ul
+													class="uk-nav uk-navbar-dropdown-nav">
+													<li><a href="#">recreation
+															room</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="uk-parent">
+										<a href="#">Contact</a>
+										<div class="uk-navbar-dropdown">
+											<div class="uk-child-width-1-1 uk-navbar-dropdown-grid"
+												uk-grid>
+												<ul
+													class="uk-nav uk-navbar-dropdown-nav">
+													<li><a href="#">terms of
+															servies</a></li>
+													<li><a href="#">imprint</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- slider section -->
+		<section id="section-1-slider"
+			class="uk-section uk-section-default uk-padding-remove-vertical" uk-height-viewport="offset-top: true; offset-bottom: 20;">
+			<div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin"
+				uk-grid>
+				<div class="uk-width-1-1@m">
+					<div class="uk-margin uk-text-center"
+						uk-slideshow="animation:pull; velocity: 1.5;"
+						uk-parallax="y:0, 50; media:@m">
+						<div class="uk-position-relative">
+							<ul class="uk-slideshow-items"
+								uk-height-viewport="offset-top:true; minHight: 500; offset-bottom:20;">
+								<li>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="scale:1,1.2,1.2">
+										<img uk-cover uk-img
+											data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-01-33c676ff.webp"
+											alt="">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.5,0,0; backgroundColor:#000, #000;">
+									</div>
+									<div
+										class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-padding">
+										<div
+											class="uk-panel uk-margin-remove-first-child uk-light">
+											<div
+												class="uk-h4 uk-text-muted uk-margin-top uk-margin-remove-bottom">
+												Everything We Do Is</div>
+											<h2
+												class="uk-heading-xlarge uk-margin-remove-vertical">
+												Handmade</h2>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="scale:1,1.2,1.2">
+										<img uk-cover uk-img data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-02-69898794.webp"
+											alt="">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.5,0,0; backgroundcolor:#000, #000">
+									</div>
+									<div
+										class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-padding">
+										<div
+											class="uk-panel uk-margin-remove-first-child uk-light">
+											<div
+												class="uk-h4 uk-text-muted uk-margin-top uk-margin-remove-bottom">
+												Everyting We Do Is</div>
+											<h2
+												class="uk-heading-xlarge uk-margin-remove-vertical">
+												Handcraft
+											</h2>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="scale:1,1.2,1.2">
+										<img uk-img uk-cover data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-03-e963d572.webp"
+											alt="">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.5,0,0; backgroundColor: #000, #000">
+									</div>
+									<div
+										class="uk-position-cover uk-light uk-flex uk-flex-center uk-flex-middle">
+										<div
+											class="uk-panel uk-margin-remove-first-child">
+											<div
+												class="uk-h4 uk-text-muted uk-margin-top uk-margin-remove-bottom">
+												Everyting We Do Is</div>
+											<h2
+												class="uk-heading-xlarge uk-margin-remove-vertical">
+												Handwork</h2>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div
+								class="uk-visible@m uk-slidenav-container uk-position-bottom-right">
+								<a href="#" uk-slidenav-previous
+									uk-slideshow-item="previous"></a>
+								<a href="#" uk-slidenav-next
+									uk-slideshow-item="next"></a>
+							</div>
+							<div
+								class="uk-position-bottom-center uk-position-medium">
+								<ul
+									class="uk-thumbnav uk-flex-nowrap uk-flex-center">
+									<li uk-slideshow-item="0"><a href="#"><img
+												uk-img
+												data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-01-85c9ab21.webp"
+												alt=""></a></li>
+									<li uk-slideshow-item="1"><a href="#"><img
+												uk-img
+												data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-02-298d1db9.webp"
+												alt=""></a></li>
+									<li uk-slideshow-item="2"><a href="#"><img
+												uk-img
+												data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-hero-slideshow-03-4db17031.webp"
+												alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- section 2 -->
+		<section id="section-2" class="uk-section uk-section-default uk-section-large">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-margin-large uk-child-width-1-1"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-divider-small uk-text-center"></div>
+							<h2 class="uk-text-center"
+								uk-parallax="y:15,0; opacity: 0.3, 1; media: @m; viewport:0.1">
+								Are you&nbsp;looking for something individual?
+								<br class="uk-visible@m">
+								We Design
+								<a href="#"
+									class="uk-link-heading uk-text-primary">Kitchen</a>,
+								<a href="#"
+									class="uk-link-heading uk-text-primary">furniture</a>,
+								<a href="#"
+									class="uk-link-heading uk-text-primary">interior</a>,
+								and much more. <br class="uk-visible@m">
+								<a href="#"
+									class="uk-link-heading uk-text-primary">All
+									Products</a>
+								are designed for you.
+
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section 3 -->
+		<section id="section-3" class="uk-section uk-section-default uk-padding-remove-bottom">
+			<div class="tm-grid-expand uk-grid-small uk-grid-margin-small"
+				uk-grid>
+				<div class="uk-grid-item-match uk-flex-middle uk-width-1-3@m">
+					<div class="uk-panel uk-width-1-1">
+						<div class="uk-heading-medium uk-width-large@m uk-margin-auto uk-lext-left@xl uk-text-center"
+							uk-parallax="y:15,0; opacity:0.3,1; media:@m; viewport:0.3">
+							All Services</div>
+						<div id="margin-70"
+							class="uk-margin uk-width-large uk-margin-auto uk-text-left@xl uk-text-center">
+							<a href="#" class="uk-button uk-button-text">More
+								Services</a>
+						</div>
+					</div>
+				</div>
+				<div class="uk-width-2-3@m">
+					<div class="uk-text-center">
+						<div class="tm-grid-expand uk-child-width-1-1 uk-child-width-1-2@s  uk-grid-small"
+							uk-grid>
+							<div>
+								<a href="#"
+									class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+									<div class="uk-link-toggle">
+										<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-services-01-265c0c77.webp"
+											alt=""
+											class="uk-transition-scale-up uk-transition-opaque">
+										<div
+											class="uk-position-center uk-position-large">
+											<div
+												class="uk-overlay uk-overlay-default uk-padding-large uk-width-large uk-margin-remove-first-child">
+												<h4
+													class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+													Bespoke Furniture</h4>
+												<div
+													class="uk-panel uk-margin-top">
+													<p>More Details</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div>
+								<a href="#"
+									class="uk-transition-toggle uk-inline-clip uk-display-inline-block">
+									<div class="uk-link-toggle">
+										<img class="uk-transition-scale-up uk-transition-opaque"
+											src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-services-02-bdc6b698.webp"
+											alt="">
+										<div
+											class="uk-position-center uk-position-large">
+											<div
+												class="uk-overlay uk-overlay-default uk-padding-large uk-width-large uk-margin-remove-first-child">
+												<h4
+													class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+													Floors &amp; Walls</h4>
+												<div
+													class="uk-panel uk-margin-top">
+													<p>More Details</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tm-grid-expand uk-grid-small uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m"
+					uk-grid>
+					<div>
+						<a href="#"
+							class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+							<div class="uk-link-toggle uk-text-center">
+								<img class="uk-transition-scale-up uk-transition-opaque"
+									src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-services-03-7d9fdd02.webp"
+									alt="">
+								<div
+									class="uk-position-center uk-position-large">
+									<div
+										class="uk-overlay uk-padding-large uk-width-large uk-margin-remove-first-child uk-overlay-default">
+										<h4
+											class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+											Kitchens</h4>
+										<div class="uk-panel uk-margin-top">More
+											Details</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#"
+							class="uk-inline-clip uk-transition-toggle uk-display-block">
+							<div class="uk-link-toggle uk-text-center">
+								<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-services-04-5182c507.webp"
+									alt=""
+									class="uk-transition-scale-up uk-transition-opaque">
+								<div class="uk-position-center uk-width-large">
+									<div
+										class="uk-overlay uk-overlay-default uk-padding-large uk-width-large uk-margin-remove-first-child">
+										<h4
+											class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+											kitchen</h4>
+										<div class="uk-panel uk-margin-top">More
+											Detials</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#"
+							class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+							<div class="uk-link-toggle uk-text-center">
+								<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-services-05-91dbae9d.webp"
+									alt=""
+									class="uk-transition-scale-up uk-transition-opaque">
+								<div class="uk-position-center uk-width-large">
+									<div
+										class="uk-overlay uk-overlay-default uk-padding-large uk-width-large uk-marign-remove-first-child">
+										<h4
+											class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+											kitchen</h4>
+										<div class="uk-panel uk-margin-top">
+											<p>More Details</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section 4 -->
+		<section id="section-4"
+			class="uk-section uk-section-default uk-section-xlarge uk-flex uk-flex-middle"
+			uk-height-viewport="offset-top:true; offset-bottom:20;">
+			<div
+				class="uk-container uk-container-xlarge uk-container-expand-right">
+				<div class="tm-grid-expand uk-grid-large uk-margin-remove-vertical"
+					uk-grid>
+					<div class="uk-width-1-3@l">
+						<div
+							class="uk-divider-small uk-text-left@m uk-text-center">
+						</div>
+						<h2 class="uk-heading-small uk-margin-small uk-width-2xlarge@l uk-margin-auto uk-text-left@m uk-text-center"
+							uk-parallax="y:15,0;opacity0.3,1; media:@m; viewport:0.3;">
+							Our Materials Always Have the Best Quality
+						</h2>
+						<div
+							class="uk-panel uk-text-emphasis uk-margin-medium uk-width-xlarge@m uk-text-left@m uk-text-center">
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Temporibus facilis odio eius corrupti?
+							Obcaecati totam quis odit voluptate ab distinctio
+							dignissimos deleniti? Dolore, corrupti omnis
+							sapiente eos aliquid fugiat consequuntur.
+						</div>
+						<div
+							class="uk-margin-large uk-text-left@m uk-text-center">
+							<a href="#" class="uk-button uk-button-text">Our
+								Materials</a>
+						</div>
+					</div>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-2-3@l">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-text-right uk-container-item-padding-remove-right"
+								uk-parallax="y:50, -50; media:@m">
+								<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-materials-11470e3e.webp"
+									alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section 5 -->
+		<section id="section-5" class="uk-section-default">
+			<div class="uk-section uk-section-large uk-background-norepeat uk-background-top-center" style=" background-size: 1550px; " uk-img data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-about-bg-b78e37fc.webp" uk-parallax="bgy: 50, -90; media:@m">
+				<div class="uk-container uk-container-xlarge">
+					<div class="tm-grid-expand uk-margin-remove-bottom uk-child-width-1-1 uk-margin-xlarge">
+						<div class="uk-grid-item-match uk-width-1-1@m">
+							<div class="uk-tile uk-tile-default">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-divider-small uk-text-center uk-text-left@m"></div>
+									<h3 class="uk-margin-medium uk-margin-remove-top uk-text-left@m uk-text-center">WE STARTED OUR OWN BUSINESS EXACTLY 10 YEARS AGO. <br class="uk-visible@l">
+									OUR TARGET WAS TO DO WHAT WE LOVE – FOLLOW OUR PASSION. <br class="uk-visible@l">
+									SEE THE FULL STORY BEHIND CRAFT.</h3>
+									<div class="uk-margin-large uk-text-left@m uk-text-center">
+										<a href="#" class="uk-button uk-button-text">More About Us</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tm-grid-expand uk-child-width-1-1 uk-margin" uk-grid>
+						<div class="uk-width-1-1@m">
+							<div class="uk-margin">
+								<div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match" uk-grid>
+									<div>
+										<div class="uk-panel uk-width-1-1 uk-margin-remove-first-child">
+											<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-team-01-2320d315.webp" alt="">
+											<h3 class="uk-margin-top uk-margin-remove-bottom">ANDREW F. RICHARD</h3>
+											<div class="uk-h4 uk-text-primary uk-margin-small-top uk-margin-remove-bottom">
+												Founder
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="uk-panel uk-width-1-1 uk-margin-remove-first-child">
+											<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-team-02-d2f56c71.webp" alt="">
+											<h3 class="uk-margin-top uk-margin-remove-bottom">JACK B. CORVIN</h3>
+											<div class="uk-h4 uk-text-primary uk-margin-small-top uk-margin-remove-bottom">founder</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section 6 -->
+		<section
+			class="uk-section uk-section-default uk-section-large uk-padding-remove-bottom">
+			<div
+				class="uk-container uk-container-xlarge uk-container-expand-right">
+				<div class="tm-grid-expand uk-grid-margin-large uk-grid-large"
+					uk-grid>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-1-3@l">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-divider-small uk-text-left"></div>
+							<h2 class="uk-heading-small uk-margin-remove-top uk-width-xlarge uk-text-left"
+								uk-parallax="y:20, 0; opacity:0.3,1; media:@m; viewport:0.3;">
+								Explore Our <br class="uk-visible@m"> Selected <br class="uk-visible@m"> Portfolio</h2>
+							<div
+								class="uk-panel uk-margin uk-width-xlarge uk-text-left">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Sed ab qui beatae tenetur
+								laborum dignissimos explicabo illum praesentium,
+								reprehenderit quibusdam ut voluptatibus
+								laudantium molestiae nisi accusamus animi ipsam
+								tempora ad?</div>
+							<div
+								class="uk-margin-large uk-width-xlarge uk-text-left">
+								<a href="#" class="uk-button uk-button-text">See
+									More Details</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-2-3@l">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-text-center uk-container-item-padding-remove-right uk-slider-container"
+								uk-parallax="y:50,-50; opacity: 0.8,1; media:@l; viewport:0.3"
+								uk-slider>
+								<div class="uk-position-relative">
+									<ul class="uk-slider-items uk-grid-small uk-child-width-5-6 uk-child-width-1-2@s uk-child-width-1-3@m"
+										uk-grid>
+										<li>
+											<a href="#"
+												class="uk-cover-container uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-05-c10aab7c.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																Bathroom
+																Furniture</h3>
+															<div
+																class="uk-margin-top uk-panel uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#"
+												class="uk-cover-container uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-02-a963b929.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																wooden phone
+																cases</h3>
+															<div
+																class="uk-panel uk-margin-top uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#"
+												class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-03-f9d0d3f5.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																custom maple
+																kitchen</h3>
+															<div
+																class="uk-panel uk-margin-top uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#"
+												class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-04-91b9c1a0.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																window
+																renovation</h3>
+															<div
+																class="uk-panel uk-margin-top uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#"
+												class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-01-58b6064d.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																recreation rooom
+															</h3>
+															<div
+																class="uk-panel uk-margin-top uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#"
+												class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+												<div class="uk-link-toggle">
+													<img src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/home-portfolio-02-a963b929.webp"
+														alt="">
+													<div
+														class="uk-position-bottom uk-margin-remove-first-child">
+														<div
+															class="uk-overlay uk-overlay-default uk-transition-fade">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																recreation rooom
+															</h3>
+															<div
+																class="uk-panel uk-margin-top uk-link-muted">
+																More Details
+															</div>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+										<div class="uk-visible@m uk-hidden-hover uk-hidden-touch uk-slidenav-container uk-position-top-right">
+											<a href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+											<a href="#" uk-slidenav-next uk-slider-item="next"></a>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section 7 -->
+		<section id="section-7" class="uk-section uk-section-default uk-padding-remove-bottom">
+			<div class="uk-container uk-container-xlarge">
+				<div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin"
+					uk-grid>
+					<div class="uk-grid-item-match uk-light uk-width-1-1@m">
+						<div class="uk-flex">
+							<div class="uk-tile uk-width-1-1 uk-tile-large uk-background-norepeat uk-background-cover uk-background-center"
+								uk-img
+								data-src="https://demo.yootheme.com/themes/joomla/2019/craft/templates/yootheme/cache/cta-bg-97d4e164.webp">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-margin uk-text-center">
+										<img src="https://demo.yootheme.com/themes/joomla/2019/craft/images/yootheme/cta-icon.svg"
+											alt="">
+									</div>
+									<h2
+										class="uk-heading-small uk-margin uk-text-center">
+										Looking for&nbsp;something individual?
+									</h2>
+									<div class="uk-margin-large uk-text-center">
+										<a href="#"
+											class="uk-button uk-button-default uk-button-large">Contact
+											Us</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section footer top -->
+		<footer id="footer-top" class="uk-section uk-section-default uk-section-large">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-large uk-grid-margin-large"
+					uk-grid>
+					<div class="uk-width-1-2@l">
+						<h2 class="uk-h6 uk-text-muted">For Inspirations,
+							Special Offers and Much More</h2>
+						<div
+							class="uk-width-large uk-text-left@m uk-text-center">
+							<form action="#" class="uk-form uk-panel">
+								<div class="uk-child-width-expand@s" uk-grid>
+									<div class="uk-position-relative">
+										<button
+											class="uk-form-icon uk-form-icon-flip uk-icon"
+											uk-icon="mail"></button>
+										<input class="uk-input uk-form-large"
+											type="email"
+											placeholder="Your E-Mail Address"
+											id="email" name="email" required>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="uk-width-auto uk-width-expand@l">
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Pinterest</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Facebook</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Instagram</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Twitter</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="uk-width-auto uk-width-expand@l">
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Services</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Portfolio</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">About</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">News</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="uk-width-auto uk-width-expand@l">
+						<div class="uk-h6 uk-text-muted uk-margin-small">Main
+							Street 123</div>
+						<div class="uk-h6 uk-text-muted uk-margin-remove-vertical">
+							12345 London, UK</div>
+						<ul class="uk-list uk-margin-small">
+							<li>
+								<div class="uk-panel uk-h6">
+									<a href="tel:+01575003266"
+										class="uk-link-muted uk-margin-remove-last-child">+8801575003266</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel uk-h6">
+									<span>
+										<a href="mailto:example@mail.com"
+											class="uk-link-muted uk-margin-remove-bottom">example@mail.com</a>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- section footer bottom-->
+		<footer id="footer-bottom" class="uk-section uk-section-muted uk-section-xsmall">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-row-small uk-grid-margin-small"
+					uk-grid>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-expand@l">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-margin uk-text-center@l uk-text-left"
+								uk-scrollspy="target:[uk-scrollspy-class];">
+								<a href="#"><img
+										src="https://demo.yootheme.com/themes/joomla/2019/craft/images/yootheme/logo-footer.svg"
+										alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-expand@l uk-flex-first@l">
+						<div class="uk-panel uk-width-1-1">
+							<div
+								class="uk-panel uk-text-meta uk-margin uk-text-left@m">
+								&copy; 2020 Craft. All rights reservet. Powered by <a
+									class="uk-link-text" href="#">yootheme</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="uk-grid-item-match uk-flex-middle uk-width-expand@l">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-text-right@l uk-text-left">
+								<ul class="uk-margin-remove-bottom uk-subnav uk-flex-right@l uk-flex-left"
+									uk-margin>
+									<li>
+										<a class="uk-link" href="#">Terms of Service</a>
+									</li>
+									<li>
+										<a class="uk-link" href="#">Imprint</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/uikit.min.js">
+	</script>
+	<script src="assets/js/uikit-icons.min.js">
+	</script>
+	</script>
+</body>
+
+</html>

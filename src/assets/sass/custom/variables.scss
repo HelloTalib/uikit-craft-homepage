@@ -1,0 +1,61 @@
+// ===========================
+//GLOBAL SETTINGS
+// ===========================
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap');
+$global-font-family: 'Barlow Condensed', sans-serif;
+$global-font-size: 16px;
+$base-body-font-weight: 500;
+$global-line-height: 1.5;
+
+// ===========================
+//COLOR & BACKGROUND
+// ===========================
+$global-color: #464646;
+// $global-background: #fcfcfc;
+// $global-primary-color: #fddf00;
+$global-primary-background: #ffd49b;
+// $global-secondary-background: #4da4b0;
+// $icon-button-background:red;
+// $global-border-width: 200px;
+// $global-muted-color: #fddf00;
+
+// ===========================
+//LINK
+// ===========================
+$global-link-color: $global-primary-background;
+$base-link-hover-color: $global-color;
+$base-link-hover-text-decoration: none;
+
+// ===========================
+//BORDER
+// ===========================
+// $heading-bullet-border: $global-primary-background;
+// $global-border: $global-primary-background;
+
+// ===========================
+//SELECTION
+// ===========================
+$base-selection-color: #ffd49b;
+$base-selection-background:#262626;
+
+// ===========================
+//HEADING
+// ===========================
+// $base-heading-font-family: "Roboto", sans-serif;
+$base-heading-font-weight: 600;
+// $base-heading-color: #4e4b4b;
+// $heading-line-width:200px;
+// $heading-xlarge-font-size-l: 114px;
+// $heading-xlarge-font-size-m: 114px;
+// $heading-xlarge-font-size-s: 114px;
+
+$base-heading-text-transform: uppercase;
+// ===========================
+//CONTAINER
+// ===========================
+$container-large-max-width: 1360px;
+
+// ===========================
+//OFFCANVAS
+// ===========================
+// $offcanvas-bar-background: #fff;

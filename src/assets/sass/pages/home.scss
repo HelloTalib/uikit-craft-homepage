@@ -1,0 +1,297 @@
+.tm-page {
+  position: relative;
+  z-index: 0;
+}
+.tm-header-overlay {
+  position: absolute;
+  z-index: 980;
+  left: 0;
+  right: 0;
+}
+
+.uk-slidenav {
+  padding: 14px 17px;
+  padding: 14px 17px;
+  color: #ffd49b;
+  background: #262626;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color, box-shadow;
+  &:hover {
+    background: $global-primary-background;
+  }
+}
+.uk-overlay-default {
+  background: #fff;
+}
+#section-1-slider {
+  .uk-h4 {
+    font-size: 22px;
+    line-height: 24.2px;
+    font-weight: 600;
+    font-family: $global-font-family;
+  }
+  .uk-heading-xlarge {
+    font-size: 74px;
+    line-height: 74px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+    @media screen and (min-width: $breakpoint-large) {
+      font-size: 8rem;
+      line-height: 8rem;
+    }
+  }
+}
+.uk-thumbnav li {
+  position: relative;
+}
+.uk-thumbnav > * > ::after {
+  border: 5px solid transparent;
+}
+.uk-thumbnav > .uk-active > ::after {
+  border-color: #f7f7f7;
+}
+.uk-thumbnav > .uk-active > ::after {
+  background-color: transparent;
+}
+.uk-navbar {
+  height: 100px;
+}
+.uk-navbar-container > .container .uk-navbar-left,
+.uk-navbar-container > .uk-container .uk-navbar-left {
+  @media screen and (min-width: $breakpoint-medium) {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+}
+.uk-navbar-container > .container .uk-navbar-right,
+.uk-navbar-container > .uk-container .uk-navbar-right {
+  @media screen and (min-width: $breakpoint-medium) {
+    // margin-left: 40px;
+    margin-right: -40px;
+  }
+}
+
+.uk-navbar-nav {
+  & > li {
+    // position: relative;
+    & > a {
+      color: #262626;
+      font-size: 16px;
+      line-height: 24px;
+      position: relative;
+      padding: 0 40px;
+      transition: all 0.1 ease-in-out;
+      font-weight: 600;
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        height: 10px;
+        transition: all 0.1s ease-in-out;
+        left: 25px;
+        right: 25px;
+        background-color: transparent !important;
+        background-size: auto;
+      }
+    }
+    &:hover {
+      a:before {
+        background-color: #ffd49b;
+        background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23FFD49B%22%20points%3D%220%209%205.03%204.35%2010%208.98%2010%205.62%205.03%201%200%205.63%200%209%22%2F%3E%0A%3C%2Fsvg%3E%0A);
+      }
+    }
+  }
+}
+
+[class*="uk-navbar-dropdown-bottom"] {
+  margin-top: 10px;
+}
+.navbar .nav > li > .dropdown-menu,
+.uk-navbar-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1020;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 40px;
+  background: #262626;
+  color: #fff;
+}
+
+.uk-navbar-dropdown-nav {
+  & > li {
+    & > a {
+      color: #fff;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 2px 0px;
+      font-family: $global-font-family;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:hover {
+        color: $global-primary-background;
+      }
+    }
+  }
+}
+.uk-navbar-toggle {
+  color: $global-color;
+  &:hover {
+    color: $global-primary-background;
+  }
+}
+.uk-offcanvas-bar {
+  .uk-nav-default {
+    li a {
+      // color: #fff;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 5px 0px;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.uk-input {
+  border: none;
+  background-color: #fafafa;
+  &:focus {
+    background: #f5f5f5;
+    outline: none;
+  }
+}
+.uk-divider-small::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  max-width: 100%;
+  border-top: 10px solid #ffd49b;
+  vertical-align: top;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%2211%22%20viewBox%3D%220%200%20100%2011%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23FFD49B%22%20points%3D%2292.49%200.41%2087.72%205.18%2082.98%200.43%2078.28%205.13%2073.61%200.45%2068.92%205.13%2064.17%200.39%2059.43%205.13%2054.73%200.41%2050.01%205.13%2045.23%200.36%2040.46%205.13%2035.72%200.38%2031.02%205.08%2026.34%200.4%2021.66%205.08%2016.91%200.34%2012.16%205.08%207.46%200.36%200%207.83%202.74%2010.56%207.46%205.83%2012.16%2010.54%2016.91%205.82%2021.66%2010.56%2026.34%205.87%2031.02%2010.54%2035.72%205.86%2040.46%2010.61%2045.23%205.83%2047.27%207.88%2050%2010.62%2050.01%2010.62%2054.73%205.89%2059.43%2010.6%2064.17%205.87%2068.92%2010.62%2073.61%205.92%2078.28%2010.6%2082.98%205.91%2087.72%2010.65%2092.49%205.88%2097.27%2010.66%20100%207.92%2092.49%200.41%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+  border-color: transparent;
+}
+
+#section-7 {
+  .uk-heading-small {
+    font-size: 58px;
+    line-height: 69.6px;
+    font-weight: 600;
+    font-family: $global-font-family;
+  }
+  .uk-button-default {
+    font-size: 28px;
+    line-height: 51px;
+    letter-spacing: 0.75px;
+    padding: 0px 25px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    border: 2px solid #fff;
+    &:hover {
+      background-color: #fff !important;
+      color: #000 !important;
+      border: 2px solid #fff;
+    }
+  }
+}
+.uk-link-muted {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#section-2 {
+  h2 {
+    font-size: 34px;
+    line-height: 37.4px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+}
+.uk-text-primary {
+  border-bottom: 4px solid $global-primary-background;
+}
+
+#section-3 {
+  .uk-heading-medium {
+    font-size: 53px;
+    line-height: 58px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 64.75px;
+      line-height: 71px;
+    }
+    @media screen and (min-width: $breakpoint-large) {
+      font-size: 74px;
+      line-height: 81px;
+    }
+  }
+}
+#section-4 {
+  .uk-heading-small {
+    font-size: 46px;
+    line-height: 55px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 58px;
+      line-height: 70px;
+    }
+  }
+}
+#section-5 {
+  h3 {
+    font-size: 34px;
+    line-height: 37px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+  .uk-text-primary {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: $breakpoint-medium) {
+  #margin-70 {
+    margin-bottom: 70px;
+  }
+}
+
+#footer-bottom {
+  .uk-text-meta,
+  .uk-link {
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+}
+#footer-top {
+  .uk-link-muted {
+    font-size: 15px;
+    line-height: 16.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
